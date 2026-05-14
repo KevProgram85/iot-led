@@ -1,23 +1,28 @@
-import { initializeApp } from
-"https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
+import { initializeApp }
+from "https://www.gstatic.com/firebasejs/12.13.0/firebase-app.js";
 
 import {
   getDatabase,
   ref,
   set
-} from
-"https://www.gstatic.com/firebasejs/10.12.2/firebase-database.js";
+}
+from "https://www.gstatic.com/firebasejs/12.13.0/firebase-database.js";
 
 const firebaseConfig = {
 
-  apiKey: "TU_API_KEY",
+  apiKey: "AIzaSyAgtJ_94cwR-y0q-FlI_8ZQSZbmKjEAZYU",
 
-  authDomain: "TU_AUTH_DOMAIN",
+  authDomain: "encenderled-bf22c.firebaseapp.com",
 
-  databaseURL: "TU_DATABASE_URL",
+  databaseURL: "https://encenderled-bf22c-default-rtdb.firebaseio.com",
 
-  projectId: "TU_PROJECT_ID",
+  projectId: "encenderled-bf22c",
 
+  storageBucket: "encenderled-bf22c.firebasestorage.app",
+
+  messagingSenderId: "901218113802",
+
+  appId: "1:901218113802:web:51b1a64ca25b539a4682f3"
 };
 
 const app = initializeApp(firebaseConfig);
